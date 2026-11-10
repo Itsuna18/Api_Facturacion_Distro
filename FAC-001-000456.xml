@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Factura>
+  <Cabecera>
+    <Numero>FAC-001-000456</Numero>
+    <Fecha>2026-11-06</Fecha>
+  </Cabecera>
+  <Cliente>
+    <Nombre>Carlos Mendoza</Nombre>
+    <CedulaRuc>1712345678001</CedulaRuc>
+  </Cliente>
+  <Detalles>
+    <Producto>
+      <Nombre>Monitor LED 24 pulgadas</Nombre>
+      <Cantidad>2</Cantidad>
+      <PrecioUnitario>140.00</PrecioUnitario>
+      <Subtotal>280.00</Subtotal>
+    </Producto>
+    <Producto>
+      <Nombre>Cable HDMI 2.0 (2m)</Nombre>
+      <Cantidad>3</Cantidad>
+      <PrecioUnitario>8.50</PrecioUnitario>
+      <Subtotal>25.50</Subtotal>
+    </Producto>
+  </Detalles>
+  <Totales>
+    <Subtotal>305.50</Subtotal>
+    <IVA>45.82</IVA>
+    <Total>351.32</Total>
+  </Totales>
+  <Estado>Generado</Estado>
+</Factura>

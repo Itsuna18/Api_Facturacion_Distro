@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Factura>
+ <Cabecera>
+  <Numero>001-001-000000001</Numero>
+  <Fecha>2026-11-04</Fecha>
+ </Cabecera>
+ <Cliente>
+  <Nombre>Luis</Nombre>
+  <CedulaRuc>1807123456001</CedulaRuc>
+ </Cliente>
+ <detalle>
+  <producto>
+   <nombre>agua</nombre>
+   <cantidad>1</cantidad>
+   <precio_unitario>1200.50</precio_unitario>
+   <subtotal>1200.50</subtotal>
+  </producto>
+ </detalle>
+ <totales>
+  <Subtotal>1200.50</Subtotal>
+  <IVA>180.07</IVA>
+  <Total>1380.58</Total>
+ </totales>
+ <Estado>Generado</Estado>
+</Factura>

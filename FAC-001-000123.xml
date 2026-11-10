@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Factura>
+ <Cabecera>
+  <Numero>FAC-001-000123</Numero>
+  <Fecha>2026-11-06</Fecha>
+ </Cabecera>
+ <Cliente>
+  <Nombre>Juan Pérez</Nombre>
+  <Cedula/RUC>1712345678001</Cedula/RUC>
+ </Cliente>
+ <Detalle>
+  <Producto>
+   <Nombre>Teclado Mecánico RGB</Nombre>
+   <Cantidad>2</Cantidad>
+   <Preciounitario>45.50</Preciounitario>
+   <Subtotal>91.00</Subtotal>
+  </Producto>
+  <Producto>
+   <Nombre>Mouse Inalámbrico</Nombre>
+   <Cantidad>1</Cantidad>
+   <Preciounitario>25.00</Preciounitario>
+   <Subtotal>25.00</Subtotal>
+  </Producto>
+ </Detalle>
+ <Totales>
+  <Subtotal>116.00</Subtotal>
+  <IVA>17.40</IVA>
+  <Total>133.40</Total>
+ </Totales>
+ <Estado>Generada</Estado>
+</Factura>
